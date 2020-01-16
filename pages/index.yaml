@@ -1,0 +1,39 @@
+greetings:
+  - Hi, the name is Chop Tr.
+  - I am a full-stack developer
+  - based in Ho Chi Minh City, Vietnam.
+  - Nice to meet ya!
+
+sections:
+  - h2: About Me
+    p:
+      - I design and code simple things and I really enjoy what I do
+      - I love to learn new things and try out new knowledge
+
+  - h2: Skills
+    p:
+      - Javascript and Front-end Frameworks master (Vue, React, Angular)
+      - Firebase and Go lang advocate
+      - GCP and Kubernetes user
+      - Python scriptor
+      - Functional Programing style
+      - Event Driven Architect and Microservice
+
+blogposts:
+  - name: How to Gracefully Terminate Go Routines
+    link: https://medium.com/@choptr/how-to-gracefully-terminate-go-routines-3300e147d93d
+
+works:
+  - name: ThucDon.app
+    link: https://thucdon.app
+
+footers:
+  - h5: logan1011001@gmail.com
+    icon: /icons/email-at.svg
+    link: mailto:logan1011001@gmail.com
+  - h5: https://twitter.com/choptr
+    icon: /icons/twitter.svg
+    link: https://twitter.com/choptr
+  - h5: https://medium.com/@choptr
+    icon: /icons/medium.svg
+    link: https://medium.com/@choptr
