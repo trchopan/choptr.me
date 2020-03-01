@@ -1,5 +1,6 @@
 greetings:
-  - Hi, the name is Chop Tr.
+  - Hi, the name is Quang Tran
+  - aka Chop Tr.
   - I am a full-stack developer
   - based in Ho Chi Minh City, Vietnam.
   - Nice to meet ya!
@@ -9,7 +10,7 @@ sections:
     p:
       - I design and code simple things and I really enjoy what I do
       - I love to learn new things and try out new knowledge
-      - As you've already guessed I'm a minimalist
+      - I'm a minimalist
 
   - h2: Skills
     p:
