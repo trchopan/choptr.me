@@ -9,6 +9,7 @@ sections:
     p:
       - I design and code simple things and I really enjoy what I do
       - I love to learn new things and try out new knowledge
+      - As you've already guessed I'm a minimalist
 
   - h2: Skills
     p:
@@ -17,6 +18,7 @@ sections:
       - GCP and Kubernetes sailor
       - Functional Programing and Domain-Driven Design practitioner
       - Python scriptor
+      - Vim typer
 
 blogposts:
   - name: How to Gracefully Terminate Go Routines
