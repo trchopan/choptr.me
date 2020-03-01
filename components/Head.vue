@@ -86,6 +86,7 @@ export default Vue.extend({
   .typer__container {
     margin: auto;
     max-width: 500px;
+    min-height: 9rem;
     text-align: center;
   }
 }

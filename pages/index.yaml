@@ -13,11 +13,10 @@ sections:
   - h2: Skills
     p:
       - Javascript and Front-end Frameworks master (Vue, React, Angular)
-      - Firebase and Go lang advocate
-      - GCP and Kubernetes user
+      - Firebase and Go lang lover
+      - GCP and Kubernetes sailor
+      - Functional Programing and Domain-Driven Design practitioner
       - Python scriptor
-      - Functional Programing style
-      - Event Driven Architect and Microservice
 
 blogposts:
   - name: How to Gracefully Terminate Go Routines
@@ -31,9 +30,12 @@ footers:
   - h5: logan1011001@gmail.com
     icon: /icons/email-at.svg
     link: mailto:logan1011001@gmail.com
-  - h5: https://twitter.com/choptr
+  - h5: github.com/trchopan
+    icon: /icons/github.svg
+    link: https://github.com/trchopan
+  - h5: twitter.com/choptr
     icon: /icons/twitter.svg
     link: https://twitter.com/choptr
-  - h5: https://medium.com/@choptr
+  - h5: medium.com/@choptr
     icon: /icons/medium.svg
     link: https://medium.com/@choptr
