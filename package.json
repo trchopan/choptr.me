@@ -19,7 +19,7 @@
     "@nuxtjs/style-resources": "^1.0.0",
     "firebase": "^7.5.2",
     "js-yaml-loader": "^1.2.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "nuxt": "^2.0.0",
     "sass-loader": "^8.0.0",
     "vue-typer": "^1.2.0"
