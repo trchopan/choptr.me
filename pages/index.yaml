@@ -24,6 +24,8 @@ sections:
 blogposts:
   - name: How to Gracefully Terminate Go Routines
     link: https://medium.com/@choptr/how-to-gracefully-terminate-go-routines-3300e147d93d
+  - name: My Mini View
+    link: https://medium.com/@choptr/my-mini-view-7e376b0b6c3f
 
 works:
   - name: Paris Baguette x ThucDon.app

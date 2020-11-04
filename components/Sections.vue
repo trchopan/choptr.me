@@ -1,7 +1,7 @@
-<template functional>
+<template>
   <div class="sections">
     <section
-      v-for="(section, i) in props.sections"
+      v-for="(section, i) in sections"
       :key="`section-${i}`"
       class="section__item"
     >
@@ -10,6 +10,19 @@
     </section>
   </div>
 </template>
+
+<script>
+import Vue from "vue";
+
+export default Vue.extend({
+  props: {
+    sections: {
+      type: Array,
+      required: true,
+    },
+  },
+});
+</script>
 
 <style lang="scss" scoped>
 .section__item {

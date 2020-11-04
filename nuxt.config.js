@@ -8,37 +8,17 @@ export default {
     },
   },
   mode: "universal",
-  /*
-   ** Headers of the page
-   */
   head: {
     title,
     meta,
     link,
     script,
   },
-  /*
-   ** Customize the progress-bar color
-   */
+  components: true,
   loading: { color: "#fff" },
-  /*
-   ** Global CSS
-   */
   css: [],
-  /*
-   ** Plugins to load before mounting the App
-   */
-  plugins: [
-    "~/plugins/components.js",
-    { src: "~/plugins/vue-typer.js", mode: "client" },
-  ],
-  /*
-   ** Nuxt.js dev-modules
-   */
+  plugins: [{ src: "~/plugins/vue-typer.js", mode: "client" }],
   buildModules: [],
-  /*
-   ** Nuxt.js modules
-   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios",
@@ -59,18 +39,8 @@ export default {
     breaks: true,
     use: ["markdown-it-div", "markdown-it-attrs"],
   },
-  /*
-   ** Axios module configuration
-   ** See https://axios.nuxtjs.org/options
-   */
   axios: {},
-  /*
-   ** Build configuration
-   */
   build: {
-    /*
-     ** You can extend webpack config here
-     */
     extend(config, ctx) {
       config.module.rules.push({
         test: /\.ya?ml$/,
