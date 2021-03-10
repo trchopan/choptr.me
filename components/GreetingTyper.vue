@@ -9,8 +9,8 @@
   </client-only>
 </template>
 
-<style lang="scss">
-.vue-typer {
+<style lang="scss" scoped>
+::v-deep .vue-typer {
   font-family: "Fira Code", monospace;
   line-height: 2rem;
   font-size: 1.2rem;
@@ -18,19 +18,17 @@
     line-height: 1.6rem;
     font-size: 1rem;
   }
-}
-
-.vue-typer .custom.char {
-  color: map-get($colors, "text");
-  background-color: map-get($colors, "darker");
-  margin-bottom: 5px;
-}
-.vue-typer .custom.char.selected {
-  background-color: map-get($colors, "hightlight");
-}
-
-.vue-typer .custom.caret {
-  width: 10px;
-  background-color: map-get($colors, "primary");
+  & .custom.char {
+    color: map-get($colors, "text");
+    background-color: map-get($colors, "darker");
+    margin-bottom: 5px;
+  }
+  & .custom.char.selected {
+    background-color: map-get($colors, "hightlight");
+  }
+  & .custom.caret {
+    width: 10px;
+    background-color: map-get($colors, "primary");
+  }
 }
 </style>

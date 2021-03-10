@@ -26,6 +26,7 @@ export default {
     "@nuxtjs/google-analytics",
     "@nuxtjs/style-resources",
     "@nuxtjs/markdownit",
+    "@nuxt/content",
   ],
   googleAnalytics: {
     id: "UA-148449545-1",
