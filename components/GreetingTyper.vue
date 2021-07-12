@@ -10,7 +10,7 @@
 </template>
 
 <style lang="scss" scoped>
-::v-deep .vue-typer {
+/deep/ .vue-typer {
   font-family: "Fira Code", monospace;
   line-height: 2rem;
   font-size: 1.2rem;
