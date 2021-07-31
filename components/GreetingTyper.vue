@@ -9,8 +9,8 @@
   </client-only>
 </template>
 
-<style lang="scss" scoped>
-/deep/ .vue-typer {
+<style lang="scss">
+.vue-typer {
   font-family: "Fira Code", monospace;
   line-height: 2rem;
   font-size: 1.2rem;

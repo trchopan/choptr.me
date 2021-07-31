@@ -30,14 +30,14 @@ blogposts:
     link: https://choptr.medium.com/how-to-ssh-to-your-raspberry-pi-through-a-tcp-tunnel-681bdcf1a833
 
 works:
-  - name: Paris Baguette x ThucDon.app
-    link: http://parisbaguette.thucdon.app
-  - name: Mini View
-    link: https://mini-view.web.app
   - name: LINA TRAN - Cardano Stake Pool
     link: https://linatr.me
   - name: Cardano Stake Pool Globe
     link: https://globe.linatr.me
+  - name: Paris Baguette x ThucDon.app
+    link: http://parisbaguette.thucdon.app
+  - name: Mini View
+    link: https://mini-view.web.app
 
 footers:
   - h5: logan1011001@gmail.com
